@@ -101,16 +101,14 @@
             background-repeat: no-repeat; background-position: center center;
             background-size: cover; }
         .card_lst li a { display:block; width: 320px; height: 220px; }
-        .card_lst li.item2 .thumb_box { background-image: url("./images/thumb1.png"); }
-        .card_lst li.item3 .thumb_box { background-image: url("./images/thumb2.png"); }
-        .card_lst li.item4 .thumb_box { background-image: url("./images/thumb3.png"); }
-        .card_lst li.item5 .thumb_box { background-image: url("./images/thumb4.png"); }
-        .card_lst li.item6 .thumb_box { background-image: url("./images/thumb5.png"); }
-        .card_lst li.item7 .thumb_box { background-image: url("./images/thumb6.png"); }
+        .card_lst li.item2 .thumb_box { background-image: url("./images/boysbook.jpg"); }
+        .card_lst li.item3 .thumb_box { background-image: url("./images/bubble.jpg"); }
+        .card_lst li.item4 .thumb_box { background-image: url("./images/childstudy.jpg"); }
+        .card_lst li.item5 .thumb_box { background-image: url("./images/media.jpg"); }
 
-        .thumb_tit { height: 42px; box-sizing:border-box; font-size: 14px; color:#333; padding:14px; padding-bottom: 0; text-overflow: ellipsis;
+        .thumb_tit { height: 42px; box-sizing:border-box; font-size: 18px; color:#333; padding:14px; padding-bottom: 0; text-overflow: ellipsis;
             overflow:hidden; display:-webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp:2;
-            margin-bottom: 60px; }
+            margin-bottom: 60px; text-align: center; }
 
         .ico_box { height: 53px; clear:both; margin-top: 30px; border-top:1px solid #eee;
             padding-top:30px; }
@@ -126,7 +124,7 @@
         .cate_lst li { border-top:1px solid #333; margin-left: 14px; margin-right: 14px;
             padding-top: 32px; height: 90px;  }
         .cate_tit li a { display:block; }
-        .bd_content { width:auto; padding-right: 24px; }
+        .bd_content { width:auto; padding-right: 24px; text-align: center;}
         .bd_date { padding-top: 18px; }
 
         .sl-btn-box .btn { display:block; width: 48px; height: 48px; font-size:32px;
@@ -276,7 +274,7 @@
         <section class="page" id="page2">
             <div class="page_wrap">
                 <h2 class="page_tit">미디어</h2>
-                <p class="page_com">천재교육의 보도자료와 SNS 콘텐츠를 소개합니다.</p>
+                <p class="page_com">보도자료와 SNS 콘텐츠를 소개합니다.</p>
                 <div class="sl-btn-box">
                     <button type="button" class="btn next">&gt;</button>
                     <button type="button" class="btn prev">&lt;</button>
@@ -289,14 +287,14 @@
                             <ul class="cate_lst">
                                 <li>
                                     <a href="">
-                                        <p class="bd_content">운필력 키우는 한글 글쓰기, 유아학습지로 창의력과 표현력을 기른다.</p>
-                                        <p class="bd_date">2023-07-17</p>
+                                        <p class="bd_content">운필력 키우는 한글 글쓰기,<br> 유아학습지로 창의력과 표현력을 기른다.</p>
+                                        <p class="bd_date">2023-08-17</p>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <p class="bd_content">천재교과서, 스마트해법-밀크T 온·오프라인 결합 상품 더블케어 천재패스 출시</p>
-                                        <p class="bd_date">2023-07-17</p>
+                                        <p class="bd_content">쉽게 시작하는 제2외국어! <br> 스마트런과 함께 해요.</p>
+                                        <p class="bd_date">2023-08-20</p>
                                     </a>
                                 </li>
                             </ul>
@@ -304,42 +302,28 @@
                         <li class="item2">
                             <a href="">
                                 <div class="thumb_box"></div>
-                                <p class="thumb_tit">썸네일제목2 썸네일제목2 썸네일제목2 썸네일제목2 썸네일제목2 썸네일제목2 썸네일제목2썸네일제목2 썸네일제목2 썸네일제목2 썸네일제목2썸네일제목2썸네일제목2 썸네일제목2 </p>
+                                <p class="thumb_tit">책을 읽으면 좋은 점 3가지!</p>
                                 <div class="ico_box"><span class="ico item1"></span><span class="thumb_date">2023-07-18</span></div>
                             </a>
                         </li>
                         <li class="item3">
                             <a href="">
                                 <div class="thumb_box"></div>
-                                <p class="thumb_tit">썸네일제목3</p>
+                                <p class="thumb_tit">방학에는 뭐하고 놀까?</p>
                                 <div class="ico_box"><span class="ico item1"></span><span class="thumb_date">2023-07-18</span></div>
                             </a>
                         </li>
                         <li class="item4">
                             <a href="">
                                 <div class="thumb_box"></div>
-                                <p class="thumb_tit">썸네일제목4</p>
+                                <p class="thumb_tit">1학기 전체를 2주만에 복습한다고?</p>
                                 <div class="ico_box"><span class="ico item2"></span><span class="thumb_date">2023-07-18</span></div>
                             </a>
                         </li>
                         <li class="item5">
                             <a href="">
                                 <div class="thumb_box"></div>
-                                <p class="thumb_tit">썸네일제목5</p>
-                                <div class="ico_box"><span class="ico item1"></span><span class="thumb_date">2023-07-18</span></div>
-                            </a>
-                        </li>
-                        <li class="item6">
-                            <a href="">
-                                <div class="thumb_box"></div>
-                                <p class="thumb_tit">썸네일제목6</p>
-                                <div class="ico_box"><span class="ico item2"></span><span class="thumb_date">2023-07-18</span></div>
-                            </a>
-                        </li>
-                        <li class="item7">
-                            <a href="">
-                                <div class="thumb_box"></div>
-                                <p class="thumb_tit">썸네일제목7</p>
+                                <p class="thumb_tit">미디어의 사용 과연 괜찮을까?</p>
                                 <div class="ico_box"><span class="ico item1"></span><span class="thumb_date">2023-07-18</span></div>
                             </a>
                         </li>

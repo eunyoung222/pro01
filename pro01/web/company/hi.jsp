@@ -130,8 +130,7 @@
                 <div class="inner">
                     <div class="img-area">
                         <img src="/images/smartrunhi.jpg" alt="인사말">
-                        <p>안녕하세요! 스마트런 홈페이지를 방문해주셔서 감사합니다.
-                        <br> 다음 프로젝트에는 좀 더 보완된 모습으로 뵙겠습니다!</p>
+                        <p>안녕하세요! 스마트런 홈페이지를 방문해주셔서 감사합니다.</p>
                     </div>
                 </div>
             </div>
