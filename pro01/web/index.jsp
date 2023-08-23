@@ -71,10 +71,10 @@
         .pic_lst li a { display:block; width: 256px; height: 376px; margin: 11px;
             border:1px solid #fff; color:#fff; }
         .pic_lst li:last-child { margin-right: 0; }
-        .pic_lst li.item1 { background-image: url("./images/R.png"); }
-        .pic_lst li.item2 { background-image: url("./images/U.png"); }
-        .pic_lst li.item3 { background-image: url("./images/N.png"); }
-        .pic_lst li.item4 { background-image: url("./images/wow.png"); }
+        .pic_lst li.item1 { background-image: url("./images/koreanT.jpg"); }
+        .pic_lst li.item2 { background-image: url("./images/englishT.jpg"); }
+        .pic_lst li.item3 { background-image: url("./images/mathT.jpg"); }
+        .pic_lst li.item4 { background-image: url("./images/scienceT.jpg"); }
         .pic_com { padding-left: 20px; padding-top: 20px; font-size:14px; }
         .pic_tit { padding-left: 20px; padding-top: 20px; font-size:18px; }
         .pic_arrow { display:block; width:110px; height:10px; border-bottom:1px solid #fff;
@@ -238,33 +238,34 @@
         </script>
         <section class="page" id="page1">
             <div class="page_wrap">
-                <h2 class="page_tit">스마트하게 달리자!</h2>
+                <h2 class="page_tit">과목별 선생님</h2>
+                <p class="page_com">스마트런 만의 과목별 선생님을 소개합니다!</p>
                 <ul class="pic_lst">
                     <li class="item1">
                         <a href="">
-                            <p class="pic_com">설명</p>
-                            <h3 class="pic_tit">제목</h3>
+                            <p class="pic_com">국어선생님</p>
+                            <h3 class="pic_tit">이은영</h3>
                             <span class="pic_arrow"></span>
                         </a>
                     </li>
                     <li class="item2">
                         <a href="">
-                            <p class="pic_com">설명</p>
-                            <h3 class="pic_tit">제목</h3>
+                            <p class="pic_com">영어선생님</p>
+                            <h3 class="pic_tit">LEE</h3>
                             <span class="pic_arrow"></span>
                         </a>
                     </li>
                     <li class="item3">
                         <a href="">
-                            <p class="pic_com">설명</p>
-                            <h3 class="pic_tit">제목</h3>
+                            <p class="pic_com">수학</p>
+                            <h3 class="pic_tit">이으녕</h3>
                             <span class="pic_arrow"></span>
                         </a>
                     </li>
                     <li class="item4">
                         <a href="">
-                            <p class="pic_com">설명</p>
-                            <h3 class="pic_tit">제목</h3>
+                            <p class="pic_com">과학</p>
+                            <h3 class="pic_tit">이운영</h3>
                             <span class="pic_arrow"></span>
                         </a>
                     </li>
@@ -274,7 +275,7 @@
         <section class="page" id="page2">
             <div class="page_wrap">
                 <h2 class="page_tit">미디어</h2>
-                <p class="page_com">보도자료와 SNS 콘텐츠를 소개합니다.</p>
+                <p class="page_com">보도자료와 SNS 콘텐츠를 소개합니다!</p>
                 <div class="sl-btn-box">
                     <button type="button" class="btn next">&gt;</button>
                     <button type="button" class="btn prev">&lt;</button>
