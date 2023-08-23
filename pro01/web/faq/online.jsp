@@ -40,7 +40,7 @@
         .tb1 { width:800px; margin:50px auto; }
         .tb1 th { line-height:32px; padding-top:8px; padding-bottom:8px;
             border-top:1px solid #333; border-bottom:1px solid #333;
-            background-color:deepskyblue; color:#fff; }
+            background-color:yellowgreen; color:#fff; }
         .tb1 td {line-height:32px; padding-top:8px; padding-bottom:8px;
             border-bottom:1px solid #333;
             padding-left: 14px; border-top:1px solid #333; }
@@ -63,6 +63,9 @@
         .btn_group { clear:both; width:800px; margin:20px auto; }
         .btn_group:after { content:""; display:block; width:100%; clear: both; }
         .btn_group p {text-align: center;   line-height:3.6; }
+        textarea#content {
+            width: 300px;
+        }
     </style>
 
 </head>
@@ -84,13 +87,13 @@
                     <table class="tb1">
                         <tbody>
                         <tr>
-                            <th><label for="author">작성자 이름</label></th>
+                            <th><label for="author">성함</label></th>
                             <td><input type="text" name="name" id="name" class="indata" required>
                                 <input type="hidden" name="author" id="author" value="<%=sid %>">
                             </td>
                         </tr>
                         <tr>
-                            <th><label for="from">이메일 주소</label></th>
+                            <th><label for="from">이메일 <br>주소</label></th>
                             <td><input type="email" name="from" id="from" class="indata" required></td>
                         </tr>
                         <tr>
@@ -98,11 +101,11 @@
                             <td><input type="tel" name="tel" id="tel" class="indata" required></td>
                         </tr>
                         <tr>
-                            <th><label for="title">상담 제목</label></th>
+                            <th><label for="title">상담 <br>제목</label></th>
                             <td><input type="text" name="title" id="title" class="indata" required></td>
                         </tr>
                         <tr>
-                            <th><label for="content">상담 내용</label></th>
+                            <th><label for="content">상담 <br>내용</label></th>
                             <td>
                                 <textarea cols="100" rows="6" name="content" id="content" maxlength="600" class="indata2"></textarea>
                             </td>

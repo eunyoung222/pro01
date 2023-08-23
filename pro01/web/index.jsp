@@ -22,17 +22,17 @@
         /* 본문 영역 스타일 */
         .contents { clear:both; }
         .contents::after { content:""; clear:both; display:block; width:100%; }
-        .vs { clear:both; width:100%; min-height:600px; background-color: deeppink;
+        .vs { clear:both; width:100%; min-height:600px;
             position:relative; overflow:hidden; }
         .img_box { position:relative; width: 100%; height:600px; overflow:hidden; }
         .img_box li { visibility:hidden; opacity:0;  transition-duration:0.7s;
             transition-delay:0.1s;    width:100%; height:600px;  }
-        .img_box li .bg_box { width:100vw; height:600px; background-repeat: no-repeat;
+        .img_box li .bg_box { width:1920px; height:600px; background-repeat: no-repeat;
             background-position:center center; background-size:cover; position:absolute;
-            left: 0; top: 0; z-index:5; }
+            top: 0; z-index:5; background-color: white;}
         .img_box li.active .bg_box { z-index:6; }
-        .img_box li.item1 .bg_box { background-image: url("./images/img_main_keyVisual01_summer.jpg"); }
-        .img_box li.item2 .bg_box { background-image: url("./images/img_main_keyVisual03.jpg"); }
+        .img_box li.item1 .bg_box { background-image: url("./images/baby.jpg"); }
+        .img_box li.item2 .bg_box { background-image: url("./images/book2.jpg"); }
         .img_box li .vs_tit { position:absolute; top:180px; left:100px; z-index:10;
             font-weight: 300; font-size: 60px; line-height: 1.3; }
         .img_box li .vs_tit strong { font-weight: 500; }
@@ -60,7 +60,6 @@
         .page_tit { font-size:48px; text-align: center; padding-top:1.75em; }
 
         #page1 { background-color: #f1f2f1;
-            background-image:url("./images/bg_social_ptn01.png");
             background-position:15vw 63vh; background-repeat: no-repeat; }
 
         .pic_lst { clear:both; width: 1200px; margin: 60px auto; }
@@ -72,10 +71,10 @@
         .pic_lst li a { display:block; width: 256px; height: 376px; margin: 11px;
             border:1px solid #fff; color:#fff; }
         .pic_lst li:last-child { margin-right: 0; }
-        .pic_lst li.item1 { background-image: url("./images/img_social_main01.jpg"); }
-        .pic_lst li.item2 { background-image: url("./images/img_social_main02.jpg"); }
-        .pic_lst li.item3 { background-image: url("./images/img_social_main03.jpg"); }
-        .pic_lst li.item4 { background-image: url("./images/img_social_main04.jpg"); }
+        .pic_lst li.item1 { background-image: url("./images/R.png"); }
+        .pic_lst li.item2 { background-image: url("./images/U.png"); }
+        .pic_lst li.item3 { background-image: url("./images/N.png"); }
+        .pic_lst li.item4 { background-image: url("./images/wow.png"); }
         .pic_com { padding-left: 20px; padding-top: 20px; font-size:14px; }
         .pic_tit { padding-left: 20px; padding-top: 20px; font-size:18px; }
         .pic_arrow { display:block; width:110px; height:10px; border-bottom:1px solid #fff;
@@ -135,6 +134,30 @@
             font-weight: 700; cursor:pointer; position:absolute; left:100px; }
         .sl-btn-box .btn.next { top:100px; }
         .sl-btn-box .btn.prev { top:148px; }
+
+        .img_box li .vs_tit1 {
+            color: white;
+            position: absolute;
+            top: 180px;
+            right: 85px;
+            z-index: 10;
+            font-weight: 300;
+            font-size: 60px;
+            line-height: 1.3;
+            text-align: right;
+        }
+
+        .img_box li .vs_tit2 {
+            color:white;
+            position: absolute;
+            top: 180px;
+            left: 85px;
+            z-index: 10;
+            font-weight: 300;
+            font-size: 60px;
+            line-height: 1.3;
+            text-align: left;
+        }
     </style>
 
     <link rel="stylesheet" href="ft.css">
@@ -150,14 +173,14 @@
                 <li class="item1 active">
                     <input type="radio" name="vs_ra" id="vs_ra1" class="vs_ra" checked>
                     <div class="bg_box"></div>
-                    <h2 class="vs_tit">교육에 대한 끊임없는 도전<br>
-                        <strong>행복한 내일을 함께 합니다</strong></h2>
+                    <h2 class="vs_tit1">우리 아이의 교육, 처음과 끝을<br>
+                        <strong>스마트런이 책임지겠습니다.</strong></h2>
                 </li>
                 <li class="item2">
                     <input type="radio" name="vs_ra" id="vs_ra2" class="vs_ra">
                     <div class="bg_box"></div>
-                    <h2 class="vs_tit">“나눔의 힘! 실천의 힘!”<br>
-                        <strong>작은 따뜻함으로 세상을 <br>바꿉니다</strong>
+                    <h2 class="vs_tit2">교육에 대한 끊임 없는 열정을<br>
+                        <strong>스마트런이 응원합니다.</strong>
                     </h2>
                 </li>
             </ul>
@@ -217,7 +240,7 @@
         </script>
         <section class="page" id="page1">
             <div class="page_wrap">
-                <h2 class="page_tit">페이지 제목1</h2>
+                <h2 class="page_tit">스마트하게 달리자!</h2>
                 <ul class="pic_lst">
                     <li class="item1">
                         <a href="">
